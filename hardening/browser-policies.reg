@@ -1,0 +1,28 @@
+Windows Registry Editor Version 5.00
+
+; ElderSafety hardening for Google Chrome and Microsoft Edge (Windows 10/11).
+; Run once from an administrator account: double-click → Yes. Undo with browser-policies-remove.reg.
+; Check the result at chrome://policy and edge://policy (click "Reload policies").
+; Afterwards the browsers will say "Managed by your organization" — that is expected.
+
+; ---------------- Google Chrome ----------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+; Websites can no longer ask to show notifications (the #1 source of fake "virus" pop-ups).
+"DefaultNotificationsSetting"=dword:00000002
+; Enhanced Safe Browsing: stronger, real-time checks against known scam and malware sites.
+"SafeBrowsingProtectionLevel"=dword:00000002
+; Red "Deceptive site ahead" / "Dangerous download" warnings can't be clicked through.
+"DisableSafeBrowsingProceedAnyway"=dword:00000001
+; Block downloads Chrome considers dangerous (1). Use 4 for "malicious only" if this gets in the way.
+"DownloadRestrictions"=dword:00000001
+
+; ---------------- Microsoft Edge ----------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"DefaultNotificationsSetting"=dword:00000002
+"SmartScreenEnabled"=dword:00000001
+; Also block "potentially unwanted apps" (toolbars, fake cleaners, bundled junk).
+"SmartScreenPuaEnabled"=dword:00000001
+; SmartScreen warnings can't be clicked through, for sites or for downloaded files.
+"PreventSmartScreenPromptOverride"=dword:00000001
+"PreventSmartScreenPromptOverrideForFiles"=dword:00000001
+"DownloadRestrictions"=dword:00000001

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ElderSafety was removed</title>
+<style>
+  :root { --ink: #1d1d1d; --accent: #1f6f5c; --warn-bg: #fff4d6; --bg: #f6f8f7; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 22px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
+  h1 { color: var(--accent); font-size: 34px; line-height: 1.2; }
+  .warn { background: var(--warn-bg); border-left: 6px solid #e0a800; padding: 16px; border-radius: 10px; }
+  a.call { display: inline-block; margin-top: 18px; background: var(--accent); color: #fff; padding: 14px 24px; border-radius: 12px; text-decoration: none; font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ElderSafety was just removed from this browser.</h1>
+  <p class="warn"><strong>Did someone on the phone ask you to do this?</strong> If so, it is a scam.
+    Hang up now. Don't install anything, don't pay anything, and don't let anyone connect to your computer.</p>
+  <p id="who">Please call the family member who set this up for you.</p>
+  <a class="call" id="call" hidden>📞 Call</a>
+  <p style="font-size:17px;color:#555">If you removed it on purpose, you can close this page.</p>
+</main>
+<script>
+  // Name and phone come from the link the extension set (never stored here).
+  const q = new URLSearchParams(location.search);
+  const n = (q.get('n') || '').slice(0, 40), p = (q.get('p') || '').slice(0, 30);
+  if (n) document.getElementById('who').textContent = `Please call ${n} before doing anything else.`;
+  if (p) {
+    const a = document.getElementById('call');
+    a.href = 'tel:' + p.replace(/[^\d+]/g, '');
+    a.textContent = `📞 Call ${n || ''} ${p}`.replace(/\s+/g, ' ');
+    a.hidden = false;
+  }
+</script>
+</body>
+</html>

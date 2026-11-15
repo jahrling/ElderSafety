@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "strictness": "standard",
+  "modules": { "salespage": true, "scamguard": true },
+  "allowlist": ["mybank.example.com", "cvs.com", "walgreens.com", "amazon.com", "mail.google.com", "mail.yahoo.com"],
+  "denylist": [],
+  "allowedRemoteAccess": [],
+  "coolingOffHours": 24,
+  "unlockCodeHash": null,
+  "unlockCodeSalt": "",
+  "topicOverrides": { "gold-ira": 95 }
+}

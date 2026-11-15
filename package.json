@@ -1,0 +1,33 @@
+{
+  "name": "eldersafety",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Caregiver-managed browser guardrails that slow down scams aimed at older adults.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "e2e": "npm run build && node tests/e2e/run.mjs",
+    "validate-data": "tsx scripts/validate-greylist.ts",
+    "check-links": "tsx scripts/check-links.ts",
+    "zip": "npm run build && node scripts/zip.mjs",
+    "hash-code": "node scripts/hash-code.mjs",
+    "greylist": "node scripts/greylist-source.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "@types/node": "^22.10.0",
+    "esbuild": "^0.24.0",
+    "jsdom": "^25.0.1",
+    "@types/jsdom": "^21.1.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  }
+}

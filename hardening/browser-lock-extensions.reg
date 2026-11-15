@@ -1,0 +1,41 @@
+Windows Registry Editor Version 5.00
+
+; OPTIONAL, ADVANCED. Only the extensions you list below can be installed; all others are
+; blocked AND ANY ALREADY-INSTALLED EXTENSION NOT LISTED IS DISABLED (password managers included).
+; Stops scammers and shady sites from talking someone into installing a malicious extension.
+;
+; Before running:
+;  1. Replace every REPLACE_WITH_... with real extension IDs. Find an ID at chrome://extensions or
+;     edge://extensions (turn on "Developer mode" to see it).
+;  2. Add an entry for every extension they already use and want to keep ("3", "4", ...).
+; If you skip step 1, ElderSafety itself will be blocked.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallBlocklist]
+"1"="*"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallAllowlist]
+"1"="REPLACE_WITH_CHROME_ELDERSAFETY_ID"
+; uBlock Origin Lite (ad and scam-ad blocker) in the Chrome Web Store
+"2"="ddkjiahejlhfcafbddmgiahcphecmpfh"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallBlocklist]
+"1"="*"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallAllowlist]
+"1"="REPLACE_WITH_EDGE_ELDERSAFETY_ID"
+"2"="REPLACE_WITH_EDGE_UBLOCK_ORIGIN_LITE_ID"
+
+; ---- Optional: force-install ElderSafety and preset the family config URL ----
+; Remove the leading ";" from the lines below to use them.
+;
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallForcelist]
+;"1"="REPLACE_WITH_CHROME_ELDERSAFETY_ID;https://clients2.google.com/service/update2/crx"
+;
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\REPLACE_WITH_CHROME_ELDERSAFETY_ID\policy]
+;"configUrl"="https://gist.githubusercontent.com/YOU/SECRET_ID/raw/eldersafety.json"
+;
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallForcelist]
+;"1"="REPLACE_WITH_EDGE_ELDERSAFETY_ID;https://edge.microsoft.com/extensionwebstorebase/v1/crx"
+;
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\REPLACE_WITH_EDGE_ELDERSAFETY_ID\policy]
+;"configUrl"="https://gist.githubusercontent.com/YOU/SECRET_ID/raw/eldersafety.json"

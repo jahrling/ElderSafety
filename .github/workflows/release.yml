@@ -1,0 +1,35 @@
+name: Release
+# Push a tag like v0.2.0 (matching extension/manifest.json "version") to build, test and publish.
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    env:
+      HAS_CWS: ${{ secrets.CWS_CLIENT_ID != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run typecheck && npm run validate-data && npm test
+      - run: npm run zip
+      - name: Attach zip to the GitHub release
+        uses: softprops/action-gh-release@v2
+        with: { files: eldersafety-*.zip }
+      - name: Upload to Chrome Web Store
+        if: env.HAS_CWS == 'true'
+        env:
+          CWS_CLIENT_ID: ${{ secrets.CWS_CLIENT_ID }}
+          CWS_CLIENT_SECRET: ${{ secrets.CWS_CLIENT_SECRET }}
+          CWS_REFRESH_TOKEN: ${{ secrets.CWS_REFRESH_TOKEN }}
+          CWS_EXTENSION_ID: ${{ secrets.CWS_EXTENSION_ID }}
+        run: >
+          npx chrome-webstore-upload-cli@3 --source eldersafety-*.zip
+          --extension-id "$CWS_EXTENSION_ID" --client-id "$CWS_CLIENT_ID"
+          --client-secret "$CWS_CLIENT_SECRET" --refresh-token "$CWS_REFRESH_TOKEN"
+      # Edge Add-ons: upload the same zip in Partner Center, or add the Edge publish API here
+      # (https://learn.microsoft.com/microsoft-edge/extensions/publish/api/using-addons-api).

@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+
+; Removes everything browser-policies.reg and browser-lock-extensions.reg set.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"DefaultNotificationsSetting"=-
+"SafeBrowsingProtectionLevel"=-
+"DisableSafeBrowsingProceedAnyway"=-
+"DownloadRestrictions"=-
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallBlocklist]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallAllowlist]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallForcelist]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\REPLACE_WITH_CHROME_ELDERSAFETY_ID]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"DefaultNotificationsSetting"=-
+"SmartScreenEnabled"=-
+"SmartScreenPuaEnabled"=-
+"PreventSmartScreenPromptOverride"=-
+"PreventSmartScreenPromptOverrideForFiles"=-
+"DownloadRestrictions"=-
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallBlocklist]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallAllowlist]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallForcelist]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\REPLACE_WITH_EDGE_ELDERSAFETY_ID]
