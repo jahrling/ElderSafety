@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "configUrl": {
+      "title": "Family config URL",
+      "description": "Raw URL of the family's config JSON (for example a secret GitHub Gist).",
+      "type": "string"
+    }
+  }
+}

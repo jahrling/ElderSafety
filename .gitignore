@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.zip
+.DS_Store
+# Never commit a real family config — keep it in a secret Gist.
+config/my-family*.json

@@ -1,0 +1,1665 @@
+{
+  "version": 1,
+  "updated": "2026-11-15",
+  "topics": [
+    {
+      "id": "blood-sugar",
+      "label": "Blood sugar & type 2 diabetes",
+      "category": "health",
+      "searchTerm": "type 2 diabetes treatment",
+      "patterns": [
+        "\\b(reverse|cure|end|beat|defeat)\\w*\\s+(your\\s+)?(type 2 )?diabetes",
+        "\\bblood sugar (secret|trick|ritual|breakthrough|support formula|miracle)",
+        "\\b(glucose|insulin) (hack|trick|secret)",
+        "\\bdiabetes (destroyer|freedom|free|protocol|solution)"
+      ],
+      "sources": [
+        {
+          "title": "FTC sues publisher over phony diabetes cure aimed at seniors (2019)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/10/ftc-sues-publisher-targeting-seniors-phony-diabetes-cure-money-making-schemes"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Type 2 diabetes",
+          "url": "https://medlineplus.gov/diabetestype2.html"
+        },
+        {
+          "title": "CDC: National Diabetes Prevention Program",
+          "url": "https://www.cdc.gov/diabetes-prevention/"
+        }
+      ],
+      "score": 90,
+      "scoreBreakdown": {
+        "enforcement": 35,
+        "affiliate": 25,
+        "ageSkew": 18,
+        "lossSize": 12
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "neuropathy",
+      "label": "Neuropathy & nerve pain",
+      "category": "health",
+      "searchTerm": "peripheral neuropathy treatment",
+      "patterns": [
+        "\\b(reverse|cure|end|heal|eliminate)\\w*\\s+(your\\s+)?(neuropathy|nerve (pain|damage))",
+        "\\bneuropathy (secret|trick|solution|breakthrough|miracle|protocol)",
+        "\\b(tingling|burning|numb) (feet|toes|hands)\\b.{0,60}\\b(gone|disappear|vanish|fix)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Peripheral nerve disorders",
+          "url": "https://medlineplus.gov/peripheralnervedisorders.html"
+        },
+        {
+          "title": "MedlinePlus: Diabetic nerve problems",
+          "url": "https://medlineplus.gov/diabeticnerveproblems.html"
+        }
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "enforcement": 32,
+        "affiliate": 25,
+        "ageSkew": 18,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "tinnitus",
+      "label": "Tinnitus & hearing",
+      "category": "health",
+      "searchTerm": "tinnitus treatment",
+      "patterns": [
+        "\\b(cure|stop|end|silence|eliminate)\\w*\\s+(your\\s+)?(tinnitus|ringing in (the|your) ears)",
+        "\\btinnitus (secret|trick|breakthrough|miracle|formula)",
+        "\\b(restore|regrow)\\w*\\s+(your\\s+)?hearing"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Tinnitus",
+          "url": "https://medlineplus.gov/tinnitus.html"
+        },
+        {
+          "title": "NIDCD (NIH): Tinnitus",
+          "url": "https://www.nidcd.nih.gov/health/tinnitus"
+        }
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "enforcement": 32,
+        "affiliate": 25,
+        "ageSkew": 18,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "memory",
+      "label": "Memory, dementia & Alzheimer’s",
+      "category": "health",
+      "searchTerm": "memory loss dementia prevention",
+      "patterns": [
+        "\\b(reverse|cure|stop|prevent)\\w*\\s+(memory loss|dementia|alzheimer)",
+        "\\b(memory|brain) (secret|trick|breakthrough|miracle|booster|ritual)",
+        "\\b(brain fog)\\b.{0,60}\\b(gone|disappear|vanish|cure)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: $26M settlement over cognitive-supplement claims (via NutraIngredients)",
+          "url": "https://www.nutraingredients.com/Article/2019/04/18/FTC-settles-26-million-case-over-fraudulent-cognitive-support-claims"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Memory",
+          "url": "https://medlineplus.gov/memory.html"
+        },
+        {
+          "title": "National Institute on Aging: Alzheimer’s and dementia",
+          "url": "https://www.nia.nih.gov/health/alzheimers-and-dementia"
+        }
+      ],
+      "score": 90,
+      "scoreBreakdown": {
+        "enforcement": 38,
+        "affiliate": 22,
+        "ageSkew": 20,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "prostate",
+      "label": "Prostate",
+      "category": "health",
+      "searchTerm": "enlarged prostate BPH treatment",
+      "patterns": [
+        "\\b(shrink|cure|fix|reverse)\\w*\\s+(your\\s+)?(enlarged\\s+)?prostate",
+        "\\bprostate (secret|trick|ritual|breakthrough|miracle|formula)",
+        "\\b(nighttime|frequent) (urination|bathroom trips)\\b.{0,60}\\b(gone|stop|end)"
+      ],
+      "sources": [
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        },
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Prostate diseases",
+          "url": "https://medlineplus.gov/prostatediseases.html"
+        },
+        {
+          "title": "NIDDK (NIH): Prostate enlargement (BPH)",
+          "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/prostate-problems/prostate-enlargement-benign-prostatic-hyperplasia"
+        }
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "enforcement": 30,
+        "affiliate": 25,
+        "ageSkew": 20,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "libido",
+      "label": "Libido, ED & testosterone",
+      "category": "health",
+      "searchTerm": "erectile dysfunction treatment",
+      "patterns": [
+        "\\b(cure|reverse|fix|end)\\w*\\s+(your\\s+)?(erectile dysfunction|\\bED\\b|impotence)",
+        "\\b(testosterone|libido|male enhancement|stamina) (secret|trick|booster|ritual|breakthrough|hack)",
+        "\\b(blue pill|viagra) (alternative|replacement)"
+      ],
+      "sources": [
+        {
+          "title": "FDA: Health fraud scams",
+          "url": "https://www.fda.gov/consumers/health-fraud-scams"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Erectile dysfunction",
+          "url": "https://medlineplus.gov/erectiledysfunction.html"
+        },
+        {
+          "title": "FDA: Tainted sexual enhancement products",
+          "url": "https://www.fda.gov/drugs/medication-health-fraud/tainted-sexual-enhancement-products"
+        }
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "enforcement": 35,
+        "affiliate": 25,
+        "ageSkew": 13,
+        "lossSize": 12
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "joint-pain",
+      "label": "Joint pain & arthritis",
+      "category": "health",
+      "searchTerm": "osteoarthritis treatment",
+      "patterns": [
+        "\\b(cure|reverse|end|eliminate)\\w*\\s+(your\\s+)?(arthritis|joint pain)",
+        "\\b(joint|cartilage|knee) (secret|trick|ritual|breakthrough|miracle|regrow)",
+        "\\bregrow\\w*\\s+(your\\s+)?cartilage"
+      ],
+      "sources": [
+        {
+          "title": "FTC Business Blog: Deceptive pain claims remain a bane",
+          "url": "https://www.ftc.gov/business-guidance/blog/2020/04/deceptive-pain-claims-remain-bane"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Osteoarthritis",
+          "url": "https://medlineplus.gov/osteoarthritis.html"
+        },
+        {
+          "title": "Arthritis Foundation",
+          "url": "https://www.arthritis.org/"
+        }
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "enforcement": 30,
+        "affiliate": 22,
+        "ageSkew": 18,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "vision",
+      "label": "Vision & macular degeneration",
+      "category": "health",
+      "searchTerm": "macular degeneration treatment",
+      "patterns": [
+        "\\b(restore|reverse|fix|cure)\\w*\\s+(your\\s+)?(vision|eyesight|macular degeneration)",
+        "\\b(vision|eyesight) (secret|trick|ritual|breakthrough|miracle)",
+        "\\bthrow away (your )?glasses"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Macular degeneration",
+          "url": "https://medlineplus.gov/maculardegeneration.html"
+        },
+        {
+          "title": "National Eye Institute: AREDS supplements",
+          "url": "https://www.nei.nih.gov/research/clinical-trials/age-related-eye-disease-studies-aredsareds2"
+        }
+      ],
+      "score": 75,
+      "scoreBreakdown": {
+        "enforcement": 28,
+        "affiliate": 20,
+        "ageSkew": 17,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "weight-loss",
+      "label": "Weight loss & “metabolism” hacks",
+      "category": "health",
+      "searchTerm": "safe weight loss older adults",
+      "patterns": [
+        "\\b(melt|burn|blast|drop)\\w*\\s+(away\\s+)?(belly fat|stubborn fat|\\d+\\s*(lbs|pounds))",
+        "\\bmetabolism (secret|trick|hack|ritual|booster)",
+        "\\b(weight loss|fat loss) (secret|trick|ritual|breakthrough|miracle|hack)",
+        "\\b(lose|lost) \\d{2,3} (lbs|pounds) (in|without)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Weight-loss product claims",
+          "url": "https://consumer.ftc.gov/articles/truth-behind-weight-loss-ads"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Weight control",
+          "url": "https://medlineplus.gov/weightcontrol.html"
+        },
+        {
+          "title": "NIDDK (NIH): Choosing a safe weight-loss program",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
+        }
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "enforcement": 38,
+        "affiliate": 25,
+        "ageSkew": 10,
+        "lossSize": 12
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "blood-pressure",
+      "label": "Blood pressure",
+      "category": "health",
+      "searchTerm": "high blood pressure treatment",
+      "patterns": [
+        "\\b(lower|cure|reverse|normali[sz]e)\\w*\\s+(your\\s+)?blood pressure (naturally|in|without|fast)",
+        "\\bblood pressure (secret|trick|ritual|breakthrough|miracle|formula)",
+        "\\b(throw away|ditch|stop taking) (your )?(blood pressure )?(meds|medication|pills)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        },
+        {
+          "title": "FDA: Health fraud scams",
+          "url": "https://www.fda.gov/consumers/health-fraud-scams"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: High blood pressure",
+          "url": "https://medlineplus.gov/highbloodpressure.html"
+        },
+        {
+          "title": "American Heart Association: High blood pressure",
+          "url": "https://www.heart.org/en/health-topics/high-blood-pressure"
+        }
+      ],
+      "score": 75,
+      "scoreBreakdown": {
+        "enforcement": 28,
+        "affiliate": 20,
+        "ageSkew": 17,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "cholesterol",
+      "label": "Cholesterol & “artery cleanse”",
+      "category": "health",
+      "searchTerm": "lower cholesterol",
+      "patterns": [
+        "\\b(unclog|clean|cleanse|flush)\\w*\\s+(your\\s+)?arteries",
+        "\\bcholesterol (secret|trick|ritual|breakthrough|miracle)",
+        "\\bplaque (dissolv|melt)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        },
+        {
+          "title": "FDA: Health fraud scams",
+          "url": "https://www.fda.gov/consumers/health-fraud-scams"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Cholesterol",
+          "url": "https://medlineplus.gov/cholesterol.html"
+        },
+        {
+          "title": "NHLBI (NIH): Blood cholesterol",
+          "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol"
+        }
+      ],
+      "score": 70,
+      "scoreBreakdown": {
+        "enforcement": 25,
+        "affiliate": 18,
+        "ageSkew": 17,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "toenail-fungus",
+      "label": "Toenail fungus",
+      "category": "health",
+      "searchTerm": "toenail fungus treatment",
+      "patterns": [
+        "\\b(toenail|nail) fungus\\b.{0,60}\\b(secret|trick|gone|cure|destroy|kill)",
+        "\\bfungus (eliminator|destroyer|remover)"
+      ],
+      "sources": [
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        },
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Nail diseases",
+          "url": "https://medlineplus.gov/naildiseases.html"
+        },
+        {
+          "title": "American Academy of Dermatology: Nail fungus",
+          "url": "https://www.aad.org/public/diseases/a-z/nail-fungus-overview"
+        }
+      ],
+      "score": 70,
+      "scoreBreakdown": {
+        "enforcement": 25,
+        "affiliate": 22,
+        "ageSkew": 13,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "gut-parasite",
+      "label": "Gut health & “parasite cleanse”",
+      "category": "health",
+      "searchTerm": "gut health probiotics evidence",
+      "patterns": [
+        "\\bparasite (cleanse|detox|purge)",
+        "\\b(gut|colon) (cleanse|detox) (secret|trick|ritual)",
+        "\\b(leaky gut)\\b.{0,60}\\b(cure|secret|fix)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Digestive diseases",
+          "url": "https://medlineplus.gov/digestivediseases.html"
+        },
+        {
+          "title": "NCCIH (NIH): Probiotics",
+          "url": "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety"
+        }
+      ],
+      "score": 70,
+      "scoreBreakdown": {
+        "enforcement": 25,
+        "affiliate": 22,
+        "ageSkew": 13,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "dental",
+      "label": "Teeth & gum “regrowth”",
+      "category": "health",
+      "searchTerm": "gum disease treatment",
+      "patterns": [
+        "\\b(regrow|rebuild|restore)\\w*\\s+(your\\s+)?(teeth|gums|enamel)",
+        "\\b(gum disease|receding gums)\\b.{0,60}\\b(secret|trick|reverse|cure)",
+        "\\b(dentists? (hate|don'?t want))"
+      ],
+      "sources": [
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        },
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Gum disease",
+          "url": "https://medlineplus.gov/gumdisease.html"
+        },
+        {
+          "title": "American Dental Association: MouthHealthy",
+          "url": "https://www.mouthhealthy.org/"
+        }
+      ],
+      "score": 70,
+      "scoreBreakdown": {
+        "enforcement": 22,
+        "affiliate": 25,
+        "ageSkew": 13,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "hair",
+      "label": "Hair regrowth",
+      "category": "health",
+      "searchTerm": "hair loss treatment",
+      "patterns": [
+        "\\b(regrow|restore)\\w*\\s+(your\\s+)?(lost\\s+)?hair\\b.{0,40}\\b(naturally|secret|trick|days)",
+        "\\bhair loss (secret|trick|ritual|cure|breakthrough)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        },
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Hair loss",
+          "url": "https://medlineplus.gov/hairloss.html"
+        },
+        {
+          "title": "American Academy of Dermatology: Hair loss",
+          "url": "https://www.aad.org/public/diseases/hair-loss"
+        }
+      ],
+      "score": 60,
+      "scoreBreakdown": {
+        "enforcement": 20,
+        "affiliate": 20,
+        "ageSkew": 10,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "category": "health",
+      "searchTerm": "insomnia older adults treatment",
+      "patterns": [
+        "\\b(sleep|insomnia) (secret|trick|ritual|hack|breakthrough|miracle)",
+        "\\bfall asleep in (\\d+|seconds|minutes)\\b.{0,40}\\b(trick|secret)"
+      ],
+      "sources": [
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        },
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "MedlinePlus: Sleep disorders",
+          "url": "https://medlineplus.gov/sleepdisorders.html"
+        },
+        {
+          "title": "National Institute on Aging: A good night’s sleep",
+          "url": "https://www.nia.nih.gov/health/sleep/good-nights-sleep"
+        }
+      ],
+      "score": 55,
+      "scoreBreakdown": {
+        "enforcement": 18,
+        "affiliate": 17,
+        "ageSkew": 10,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "cbd",
+      "label": "CBD & cannabis pain cures",
+      "category": "health",
+      "searchTerm": "cannabidiol CBD evidence",
+      "patterns": [
+        "\\bcbd\\b.{0,60}\\b(cure|reverse|miracle|gummies (that|which) (cure|end))",
+        "\\b(cbd|hemp) (gummies|oil)\\b.{0,60}\\b(arthritis|diabetes|alzheimer|cancer|anxiety)\\b.{0,30}\\b(cure|gone|end)"
+      ],
+      "sources": [
+        {
+          "title": "FDA: What you should know about cannabis and CBD products",
+          "url": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis"
+        },
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "NCCIH (NIH): Cannabis and cannabinoids",
+          "url": "https://www.nccih.nih.gov/health/cannabis-marijuana-and-cannabinoids-what-you-need-to-know"
+        },
+        {
+          "title": "NIH Office of Dietary Supplements: fact sheets",
+          "url": "https://ods.od.nih.gov/factsheets/list-all/"
+        }
+      ],
+      "score": 70,
+      "scoreBreakdown": {
+        "enforcement": 30,
+        "affiliate": 15,
+        "ageSkew": 15,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "cancer",
+      "label": "Cancer “cures”",
+      "category": "health",
+      "searchTerm": "cancer treatment options",
+      "patterns": [
+        "\\b(cure|kill|destroy|starve)\\w*\\s+(your\\s+)?cancer",
+        "\\bcancer (cure|secret)\\b.{0,60}\\b(they|doctors|big pharma|hidden|suppressed)",
+        "\\b(kills|destroys) (\\d+% of )?cancer cells"
+      ],
+      "sources": [
+        {
+          "title": "FDA: Products claiming to cure cancer are a cruel deception",
+          "url": "https://www.fda.gov/consumers/consumer-updates/products-claiming-cure-cancer-are-cruel-deception"
+        },
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "National Cancer Institute",
+          "url": "https://www.cancer.gov/"
+        },
+        {
+          "title": "American Cancer Society",
+          "url": "https://www.cancer.org/"
+        }
+      ],
+      "score": 95,
+      "scoreBreakdown": {
+        "enforcement": 40,
+        "affiliate": 20,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "stem-cell",
+      "label": "Stem cell clinics",
+      "category": "health",
+      "searchTerm": "stem cell therapy evidence",
+      "patterns": [
+        "\\bstem cell (therapy|treatment|injection)s?\\b.{0,80}\\b(knee|arthritis|copd|parkinson|alzheimer|neuropathy|anti-aging)",
+        "\\b(regenerative|exosome) (therapy|treatment|injection)"
+      ],
+      "sources": [
+        {
+          "title": "FDA: Important information about regenerative medicine therapies",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/important-patient-and-consumer-information-about-regenerative-medicine-therapies"
+        },
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "ISSCR: A closer look at stem cells",
+          "url": "https://www.closerlookatstemcells.org/"
+        },
+        {
+          "title": "MedlinePlus: Stem cells",
+          "url": "https://medlineplus.gov/stemcells.html"
+        }
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "enforcement": 38,
+        "affiliate": 7,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "ancient-remedy",
+      "label": "“Ancient remedy” hooks",
+      "category": "health",
+      "searchTerm": "dietary supplements safety",
+      "patterns": [
+        "\\b(ancient|japanese|amazonian|himalayan|tibetan|tribal|biblical|egyptian|mayan) (remedy|ritual|secret|recipe|tonic|elixir|tea)",
+        "\\b(\\d+|one|two|five)[- ](second|minute) (morning |nightly |bedtime )?(ritual|trick)"
+      ],
+      "sources": [
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        },
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "NIH Office of Dietary Supplements: fact sheets",
+          "url": "https://ods.od.nih.gov/factsheets/list-all/"
+        },
+        {
+          "title": "NCCIH (NIH): Using dietary supplements wisely",
+          "url": "https://www.nccih.nih.gov/health/using-dietary-supplements-wisely"
+        }
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "enforcement": 30,
+        "affiliate": 25,
+        "ageSkew": 15,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "gold-ira",
+      "label": "Gold & silver IRAs, “dollar collapse”",
+      "category": "money",
+      "searchTerm": "gold IRA fees risks",
+      "patterns": [
+        "\\b(gold|silver|precious metals?) ira",
+        "\\b(dollar|currency) (collapse|crash|reset|is dying)",
+        "\\b(protect|move|rollover)\\w*\\s+(your\\s+)?(retirement|401k|401\\(k\\)|savings|ira)\\b.{0,40}\\b(gold|silver)",
+        "\\bfree (gold|silver) (kit|guide|coins?)"
+      ],
+      "sources": [
+        {
+          "title": "CFTC: Precious metals fraud advisory",
+          "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/PreciousMetalsFraud.html"
+        },
+        {
+          "title": "Investor.gov (SEC): avoiding fraud",
+          "url": "https://www.investor.gov/protect-your-investments/fraud"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Investor.gov: Self-directed IRAs and fraud",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-26"
+        },
+        {
+          "title": "FINRA: Gold and precious metals",
+          "url": "https://www.finra.org/investors/insights/gold-precious-metals"
+        }
+      ],
+      "score": 90,
+      "scoreBreakdown": {
+        "enforcement": 35,
+        "affiliate": 20,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "crypto",
+      "label": "Crypto investing & “recovery”",
+      "category": "money",
+      "searchTerm": "cryptocurrency scam warning signs",
+      "patterns": [
+        "\\b(crypto|bitcoin|ai trading) (bot|platform|opportunity|profits?|secret)",
+        "\\b(guaranteed|daily|passive) (returns?|profits?|income)\\b.{0,40}\\b(crypto|bitcoin|trading)",
+        "\\b(recover|get back) (your )?(lost|stolen) (crypto|bitcoin|funds|money)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: What to know about cryptocurrency and scams",
+          "url": "https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-and-scams"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Investor.gov (SEC): avoiding fraud",
+          "url": "https://www.investor.gov/protect-your-investments/fraud"
+        },
+        {
+          "title": "FINRA: Crypto asset risks",
+          "url": "https://www.finra.org/investors/insights/crypto-assets"
+        }
+      ],
+      "score": 95,
+      "scoreBreakdown": {
+        "enforcement": 40,
+        "affiliate": 20,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "retirement-secret",
+      "label": "“Retirement income secret” & Social Security “loopholes”",
+      "category": "money",
+      "searchTerm": "retirement income planning",
+      "patterns": [
+        "\\b(social security|retirement) (loophole|secret|bonus|hack)",
+        "\\b(secret|little-known|hidden) (retirement|income|pension) (check|program|account|plan)",
+        "\\b\\$?\\d{1,2},\\d{3}\\s*(per|a|each) (month|year)\\b.{0,40}\\b(retirees|seniors|secret)"
+      ],
+      "sources": [
+        {
+          "title": "FTC sues publisher over phony diabetes cure aimed at seniors (2019)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/10/ftc-sues-publisher-targeting-seniors-phony-diabetes-cure-money-making-schemes"
+        },
+        {
+          "title": "Investor.gov (SEC): avoiding fraud",
+          "url": "https://www.investor.gov/protect-your-investments/fraud"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Social Security Administration: Retirement benefits",
+          "url": "https://www.ssa.gov/retirement"
+        },
+        {
+          "title": "Consumer Financial Protection Bureau: Planning for retirement",
+          "url": "https://www.consumerfinance.gov/consumer-tools/retirement/"
+        }
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "enforcement": 35,
+        "affiliate": 20,
+        "ageSkew": 18,
+        "lossSize": 12
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "stock-newsletter",
+      "label": "“Next big stock” newsletters",
+      "category": "money",
+      "searchTerm": "investment newsletter fraud",
+      "patterns": [
+        "\\b(the next|the new) (nvidia|amazon|apple|tesla|bitcoin)\\b",
+        "\\b(\\d{3,5}%|10x|100x) (gains?|returns?|profits?)\\b",
+        "\\b(one|1) (stock|ticker) (to buy|that could)"
+      ],
+      "sources": [
+        {
+          "title": "Investor.gov (SEC): avoiding fraud",
+          "url": "https://www.investor.gov/protect-your-investments/fraud"
+        },
+        {
+          "title": "FTC sues publisher over phony diabetes cure aimed at seniors (2019)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/10/ftc-sues-publisher-targeting-seniors-phony-diabetes-cure-money-making-schemes"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Investor.gov: Investment newsletters used as tools for fraud",
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-30"
+        },
+        {
+          "title": "FINRA: BrokerCheck",
+          "url": "https://brokercheck.finra.org/"
+        }
+      ],
+      "score": 75,
+      "scoreBreakdown": {
+        "enforcement": 30,
+        "affiliate": 15,
+        "ageSkew": 17,
+        "lossSize": 13
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "work-from-home",
+      "label": "Work-from-home & “AI income” schemes",
+      "category": "money",
+      "searchTerm": "work from home scams",
+      "patterns": [
+        "\\b(make|earn) \\$?\\d{2,4}\\s*(a|per) (day|hour)\\b.{0,40}\\b(from home|with ai|online)",
+        "\\b(ai|chatgpt) (income|profit|money) (system|machine|secret)",
+        "\\b(copy|paste) (and|&) (paste|earn)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Job scams",
+          "url": "https://consumer.ftc.gov/articles/job-scams"
+        },
+        {
+          "title": "FTC sues publisher over phony diabetes cure aimed at seniors (2019)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/10/ftc-sues-publisher-targeting-seniors-phony-diabetes-cure-money-making-schemes"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FTC: Business opportunity scams",
+          "url": "https://consumer.ftc.gov/articles/business-opportunity-scams"
+        },
+        {
+          "title": "FTC: Scams",
+          "url": "https://consumer.ftc.gov/scams"
+        }
+      ],
+      "score": 70,
+      "scoreBreakdown": {
+        "enforcement": 35,
+        "affiliate": 15,
+        "ageSkew": 10,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "timeshare-exit",
+      "label": "Timeshare exit & resale",
+      "category": "money",
+      "searchTerm": "timeshare exit scams",
+      "patterns": [
+        "\\btimeshare (exit|cancellation|resale|relief)",
+        "\\b(get out of|cancel) (your )?timeshare"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Timeshares and vacation plans",
+          "url": "https://consumer.ftc.gov/articles/timeshares-vacation-plans"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FTC: Timeshare resale and exit scams",
+          "url": "https://consumer.ftc.gov/articles/timeshares-vacation-plans"
+        },
+        {
+          "title": "ARDA: Responsible timeshare exit",
+          "url": "https://www.arda.org/"
+        }
+      ],
+      "score": 70,
+      "scoreBreakdown": {
+        "enforcement": 30,
+        "affiliate": 5,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "reverse-mortgage",
+      "label": "Reverse mortgage pitches",
+      "category": "money",
+      "searchTerm": "reverse mortgage risks",
+      "patterns": [
+        "\\breverse mortgage\\b.{0,60}\\b(secret|free money|never pay|tax[- ]free cash)",
+        "\\b(tax[- ]free cash|free money) from (your )?home"
+      ],
+      "sources": [
+        {
+          "title": "CFPB: Reverse mortgages",
+          "url": "https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "CFPB: Reverse mortgages",
+          "url": "https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/"
+        },
+        {
+          "title": "HUD: Find a HECM counselor",
+          "url": "https://www.hud.gov/program_offices/housing/sfh/hecm/hecmhome"
+        }
+      ],
+      "score": 55,
+      "scoreBreakdown": {
+        "enforcement": 20,
+        "affiliate": 5,
+        "ageSkew": 18,
+        "lossSize": 12
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "medicare",
+      "label": "Medicare cards & “free benefits”",
+      "category": "government",
+      "searchTerm": "Medicare fraud protect yourself",
+      "patterns": [
+        "\\b(new|replacement|plastic|gold) medicare card",
+        "\\bmedicare (giveback|bonus|free (money|benefits?|groceries))",
+        "\\b(claim|unlock) (your )?(free )?(medicare|senior) (benefits?|allowance|card)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Medicare scams",
+          "url": "https://consumer.ftc.gov/articles/medicare-scams"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Medicare.gov",
+          "url": "https://www.medicare.gov/"
+        },
+        {
+          "title": "SHIP: free Medicare counseling",
+          "url": "https://www.shiphelp.org/"
+        }
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "enforcement": 35,
+        "affiliate": 10,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "unclaimed-money",
+      "label": "“Unclaimed money” & stimulus checks",
+      "category": "government",
+      "searchTerm": "unclaimed property official",
+      "patterns": [
+        "\\b(unclaimed|forgotten) (money|funds|property)\\b.{0,40}\\b(fee|claim now|act now)",
+        "\\b(stimulus|relief|inflation) (check|payment) (for seniors|claim|available)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Government impersonation scams",
+          "url": "https://consumer.ftc.gov/articles/government-imposter-scams"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Unclaimed.org (free, official state search)",
+          "url": "https://unclaimed.org/"
+        },
+        {
+          "title": "USA.gov: Unclaimed money",
+          "url": "https://www.usa.gov/unclaimed-money"
+        }
+      ],
+      "score": 75,
+      "scoreBreakdown": {
+        "enforcement": 30,
+        "affiliate": 10,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "social-security",
+      "label": "Social Security “suspension”",
+      "category": "government",
+      "searchTerm": "Social Security scam",
+      "patterns": [
+        "\\bsocial security (number|benefits?) (has been |will be |is )?(suspended|frozen|blocked|cancell?ed)",
+        "\\b(ssa|social security) (officer|agent)\\b.{0,60}\\b(arrest|warrant|legal action)"
+      ],
+      "sources": [
+        {
+          "title": "SSA: Protect yourself from scams",
+          "url": "https://www.ssa.gov/scam/"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "SSA: Protect yourself from scams",
+          "url": "https://www.ssa.gov/scam/"
+        },
+        {
+          "title": "SSA Office of the Inspector General",
+          "url": "https://oig.ssa.gov/"
+        }
+      ],
+      "score": 75,
+      "scoreBreakdown": {
+        "enforcement": 40,
+        "affiliate": 0,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "tax-debt",
+      "label": "Tax debt relief",
+      "category": "government",
+      "searchTerm": "IRS tax debt relief scams",
+      "patterns": [
+        "\\btax (debt )?relief\\b.{0,60}\\b(pennies on the dollar|forgive|erase)",
+        "\\birs (fresh start|forgiveness)\\b.{0,40}\\b(qualify|claim)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Tax relief scams",
+          "url": "https://consumer.ftc.gov/articles/tax-relief-companies"
+        },
+        {
+          "title": "FTC: Scams",
+          "url": "https://consumer.ftc.gov/scams"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "IRS: Payment plans",
+          "url": "https://www.irs.gov/payments/payment-plans-installment-agreements"
+        },
+        {
+          "title": "IRS: Taxpayer Advocate Service",
+          "url": "https://www.taxpayeradvocate.irs.gov/"
+        }
+      ],
+      "score": 65,
+      "scoreBreakdown": {
+        "enforcement": 30,
+        "affiliate": 10,
+        "ageSkew": 15,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "sweepstakes",
+      "label": "Prize, lottery & sweepstakes “fees”",
+      "category": "prizes-relationships",
+      "searchTerm": "prize scam",
+      "patterns": [
+        "\\byou (have|'ve) (won|been selected)\\b",
+        "\\b(claim|release) (your )?(prize|winnings|award)\\b.{0,60}\\b(fee|tax|processing|shipping)",
+        "\\b(jamaica|foreign) lottery"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Fake prize, sweepstakes and lottery scams",
+          "url": "https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FTC: Fake prize, sweepstakes and lottery scams",
+          "url": "https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams"
+        },
+        {
+          "title": "AARP Fraud Watch Network",
+          "url": "https://www.aarp.org/money/scams-fraud/"
+        }
+      ],
+      "score": 78,
+      "scoreBreakdown": {
+        "enforcement": 38,
+        "affiliate": 5,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "romance",
+      "label": "Online romance asking for money",
+      "category": "prizes-relationships",
+      "searchTerm": "romance scam warning signs",
+      "patterns": [
+        "\\b(deployed|oil rig|overseas|un) (soldier|doctor|engineer)\\b.{0,80}\\b(money|gift card|send)",
+        "\\b(my love|darling|sweetheart)\\b.{0,80}\\b(customs fee|plane ticket|hospital bill|stuck)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: What to know about romance scams",
+          "url": "https://consumer.ftc.gov/articles/what-know-about-romance-scams"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FTC: What to know about romance scams",
+          "url": "https://consumer.ftc.gov/articles/what-know-about-romance-scams"
+        },
+        {
+          "title": "AARP: Romance scams",
+          "url": "https://www.aarp.org/money/scams-fraud/info-2019/romance.html"
+        }
+      ],
+      "score": 78,
+      "scoreBreakdown": {
+        "enforcement": 38,
+        "affiliate": 5,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "grandchild",
+      "label": "Grandchild or family member “in trouble”",
+      "category": "prizes-relationships",
+      "searchTerm": "grandparent scam",
+      "patterns": [
+        "\\b(grandson|granddaughter|grandchild|nephew)\\b.{0,60}\\b(jail|arrest|bail|accident|hospital)",
+        "\\b(bail|lawyer) (money|fee)\\b.{0,60}\\b(don'?t tell|keep (it|this) (a )?secret)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Family emergency scams",
+          "url": "https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FTC: Family emergency scams",
+          "url": "https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money"
+        },
+        {
+          "title": "AARP Fraud Watch Network helpline",
+          "url": "https://www.aarp.org/money/scams-fraud/helpline/"
+        }
+      ],
+      "score": 73,
+      "scoreBreakdown": {
+        "enforcement": 38,
+        "affiliate": 0,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "tech-support",
+      "label": "Fake tech support",
+      "category": "tech",
+      "searchTerm": "tech support scam",
+      "patterns": [
+        "\\byour (computer|pc|device) (is|has been) (infected|locked|blocked)",
+        "\\b(call|contact) (microsoft|windows|apple) (support|technician)",
+        "\\b(virus|trojan|spyware) (detected|alert)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: How to spot, avoid and report tech support scams",
+          "url": "https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FTC: How to spot, avoid and report tech support scams",
+          "url": "https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams"
+        },
+        {
+          "title": "Microsoft: Protect yourself from tech support scams",
+          "url": "https://support.microsoft.com/en-us/windows/protect-yourself-from-tech-support-scams-2ebf91bd-f94c-2a8a-e541-f5c800d18435"
+        }
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "enforcement": 40,
+        "affiliate": 10,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "refund-scam",
+      "label": "“Refund” and overpayment scams",
+      "category": "tech",
+      "searchTerm": "refund scam",
+      "patterns": [
+        "\\b(refund|overpayment)\\b.{0,60}\\b(remote|anydesk|teamviewer|log in to your bank)",
+        "\\b(we (accidentally|mistakenly) (refunded|sent) you)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Refund and recovery scams",
+          "url": "https://consumer.ftc.gov/articles/refund-and-recovery-scams"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FTC: Refund and recovery scams",
+          "url": "https://consumer.ftc.gov/articles/refund-and-recovery-scams"
+        },
+        {
+          "title": "FTC: Scams",
+          "url": "https://consumer.ftc.gov/scams"
+        }
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "enforcement": 40,
+        "affiliate": 5,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "antivirus-renewal",
+      "label": "Antivirus “renewal” invoices",
+      "category": "tech",
+      "searchTerm": "fake invoice scam",
+      "patterns": [
+        "\\b(norton|mcafee|geek squad|bitdefender|avast)\\b.{0,60}\\b(renewal|invoice|subscription|auto[- ]?debit)",
+        "\\b(your (subscription|membership) (has been|was) renewed)\\b.{0,60}\\b(call|cancel)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Fake invoice / renewal scams",
+          "url": "https://consumer.ftc.gov/consumer-alerts/2022/09/received-unexpected-invoice-could-be-scam"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FTC: How to recognize and avoid phishing scams",
+          "url": "https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams"
+        },
+        {
+          "title": "FTC: Scams",
+          "url": "https://consumer.ftc.gov/scams"
+        }
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "enforcement": 35,
+        "affiliate": 10,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "invoice-email",
+      "label": "PayPal / Amazon “order” emails",
+      "category": "tech",
+      "searchTerm": "phishing email",
+      "patterns": [
+        "\\b(paypal|amazon|apple|best buy)\\b.{0,60}\\b(order|charge|invoice)\\b.{0,60}\\b(call|contact) (us|support)",
+        "\\bif you did not (authori[sz]e|make) this (purchase|charge),? (please )?call"
+      ],
+      "sources": [
+        {
+          "title": "FTC: How to recognize and avoid phishing scams",
+          "url": "https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FTC: How to recognize and avoid phishing scams",
+          "url": "https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams"
+        },
+        {
+          "title": "PayPal: Recognize fraudulent emails",
+          "url": "https://www.paypal.com/us/security/learn-about-fake-messages"
+        }
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "enforcement": 35,
+        "affiliate": 10,
+        "ageSkew": 20,
+        "lossSize": 15
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "hearing-aids-direct",
+      "label": "Hearing aids sold by ad",
+      "category": "products",
+      "searchTerm": "over the counter hearing aids",
+      "patterns": [
+        "\\b(hearing aids?)\\b.{0,60}\\b(\\$\\d{2}|99%|invisible|miracle|doctors hate)"
+      ],
+      "sources": [
+        {
+          "title": "FDA: Over-the-counter hearing aids",
+          "url": "https://www.fda.gov/medical-devices/hearing-aids/otc-hearing-aids-what-you-should-know"
+        },
+        {
+          "title": "FTC: Health products and scams",
+          "url": "https://consumer.ftc.gov/features/health"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "FDA: OTC hearing aids — what you should know",
+          "url": "https://www.fda.gov/medical-devices/hearing-aids/otc-hearing-aids-what-you-should-know"
+        },
+        {
+          "title": "NIDCD (NIH): Hearing aids",
+          "url": "https://www.nidcd.nih.gov/health/hearing-aids"
+        }
+      ],
+      "score": 55,
+      "scoreBreakdown": {
+        "enforcement": 20,
+        "affiliate": 15,
+        "ageSkew": 15,
+        "lossSize": 5
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "medical-alert",
+      "label": "“Free” medical alert systems",
+      "category": "products",
+      "searchTerm": "medical alert system choosing",
+      "patterns": [
+        "\\bfree (medical alert|life alert|emergency pendant)",
+        "\\bmedical alert (system|device)\\b.{0,60}\\b(free|no cost|at no charge)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Medical alert scams",
+          "url": "https://consumer.ftc.gov/consumer-alerts/2019/03/medical-alert-scams"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "National Council on Aging: Medical alert systems guide",
+          "url": "https://www.ncoa.org/"
+        },
+        {
+          "title": "FTC: Scams",
+          "url": "https://consumer.ftc.gov/scams"
+        }
+      ],
+      "score": 60,
+      "scoreBreakdown": {
+        "enforcement": 30,
+        "affiliate": 10,
+        "ageSkew": 15,
+        "lossSize": 5
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "free-braces",
+      "label": "“Free” braces & medical equipment",
+      "category": "products",
+      "searchTerm": "Medicare durable medical equipment fraud",
+      "patterns": [
+        "\\bfree (back|knee|wrist|ankle) brace",
+        "\\b(at no cost|free) (to you )?(with|through) medicare\\b"
+      ],
+      "sources": [
+        {
+          "title": "HHS OIG: Consumer alerts",
+          "url": "https://oig.hhs.gov/fraud/consumer-alerts/"
+        },
+        {
+          "title": "FTC report to Congress: protecting older consumers (Dec 2025)",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Medicare.gov: Durable medical equipment coverage",
+          "url": "https://www.medicare.gov/coverage/durable-medical-equipment-dme-coverage"
+        },
+        {
+          "title": "Senior Medicare Patrol",
+          "url": "https://smpresource.org/"
+        }
+      ],
+      "score": 70,
+      "scoreBreakdown": {
+        "enforcement": 35,
+        "affiliate": 10,
+        "ageSkew": 15,
+        "lossSize": 10
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "gadgets",
+      "label": "Miracle gadgets",
+      "category": "products",
+      "searchTerm": "product review consumer reports",
+      "patterns": [
+        "\\b(fuel|gas) (saver|saving device)\\b",
+        "\\b(power|electricity) (saver|saving) (box|device|plug)",
+        "\\b(this|the) (gadget|device) (big|the) (companies|utilities) (hate|don'?t want)"
+      ],
+      "sources": [
+        {
+          "title": "FTC: Gas-saving products",
+          "url": "https://consumer.ftc.gov/articles/gas-saving-products-myths-and-tips"
+        },
+        {
+          "title": "FTC: Scams",
+          "url": "https://consumer.ftc.gov/scams"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Consumer Reports",
+          "url": "https://www.consumerreports.org/"
+        },
+        {
+          "title": "FTC: Scams",
+          "url": "https://consumer.ftc.gov/scams"
+        }
+      ],
+      "score": 60,
+      "scoreBreakdown": {
+        "enforcement": 25,
+        "affiliate": 20,
+        "ageSkew": 10,
+        "lossSize": 5
+      },
+      "status": "seed-estimate"
+    },
+    {
+      "id": "preparedness",
+      "label": "“Grid down” & doomsday preparedness",
+      "category": "products",
+      "searchTerm": "emergency preparedness ready.gov",
+      "patterns": [
+        "\\b(grid|power grid) (down|collapse|failure)\\b.{0,60}\\b(prepare|survive|secret)",
+        "\\b(coming|next) (collapse|crisis|famine|blackout)\\b.{0,60}\\b(survive|stockpile|before it'?s too late)"
+      ],
+      "sources": [
+        {
+          "title": "ClickBank: health & fitness is its biggest affiliate niche",
+          "url": "https://www.clickbank.com/blog/health-fitness-affiliate-marketing/"
+        },
+        {
+          "title": "FTC: Scams",
+          "url": "https://consumer.ftc.gov/scams"
+        }
+      ],
+      "alternatives": [
+        {
+          "title": "Ready.gov: Make a plan",
+          "url": "https://www.ready.gov/plan"
+        },
+        {
+          "title": "American Red Cross: Emergency preparedness",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html"
+        }
+      ],
+      "score": 65,
+      "scoreBreakdown": {
+        "enforcement": 20,
+        "affiliate": 25,
+        "ageSkew": 12,
+        "lossSize": 8
+      },
+      "status": "seed-estimate"
+    }
+  ]
+}
